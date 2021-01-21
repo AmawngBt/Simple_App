@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:textColor="@color/purple_700"
+
+            android:title="HOME"
+
+            >
+
+        </item>
+
+        <item
+            android:id="@+id/nav_cat"
+            android:textColor="@color/purple_700"
+            android:title="CETAGORIES"
+
+            >
+
+        </item>
+
+        <item
+            android:id="@+id/nav_about"
+            android:textColor="@color/purple_700"
+            android:title="ABOUT"
+
+            >
+
+        </item>
+
+    </group>
+
+
+
+    <item android:title="Share">
+
+        <menu>
+            <group android:checkableBehavior="none">
+
+                <item
+                    android:id="@+id/nav_share"
+                    android:title="SHARE"
+                    >
+
+                </item>
+
+                <item
+                    android:id="@+id/nav_rate"
+                    android:title="RATE US"
+                    >
+
+                </item>
+
+            </group>
+        </menu>
+    </item>
+</menu>
